@@ -17,7 +17,8 @@
   },
   "scripts": {
     "test": "nyc mocha 'tests/**/*.tdd.js' --reporter spec --reporter mocha-junit-reporter --reporter-options mochaFile=./testResults/test-results.xml",
-    "start": "nodemon main"
+    "dev": "nodemon main",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
